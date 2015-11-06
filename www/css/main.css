@@ -32,6 +32,11 @@ body{
   padding-bottom: 6rem;
 }
 
+.bucket-padding{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .hero-text{
   font-size: 3rem;
 }
@@ -43,4 +48,23 @@ body{
 
 .login{
   text-align: right;
+}
+
+.text-width-1{
+  width: 180px;
+  margin: 0 auto;
+}
+
+.text-width-2{
+  width: 650px;
+  margin: 0 auto;
+}
+
+.action-button{
+  background: #505153;
+  padding: 10px 20px 10px 20px;
+}
+
+.action-button:hover {
+  background: #3cfccc;
 }

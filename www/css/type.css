@@ -198,6 +198,14 @@ small, .milli {
   padding-left: 2.6rem;
 }
 
+.pad-right, .pad-r {
+  padding-right: 1.3rem;
+}
+
+.pad-right-2, .pad-r-2 {
+  padding-right: 2.6rem;
+}
+
 .pad-bottom, .pad-b {
   padding-bottom: 1.3rem;
 }

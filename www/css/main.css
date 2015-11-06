@@ -22,7 +22,25 @@ body{
   margin: 0;
 }
 
-.header-image{
-    background-image: url("http://placehold.it/640x480");
+.hero-image{
+    background-image: url("http://freebigpictures.com/wp-content/uploads/2009/09/dew-grass.jpg");
     background-size: cover;
+}
+
+.hero-padding{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.hero-text{
+  font-size: 3rem;
+}
+
+.divider{
+  border-left: 3px solid #a0a0a0;
+  padding-left: 100px;
+}
+
+.login{
+  text-align: right;
 }

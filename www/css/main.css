@@ -21,3 +21,8 @@ html{
 body{
   margin: 0;
 }
+
+.header-image{
+    background-image: url("http://placehold.it/640x480");
+    background-size: cover;
+}

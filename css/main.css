@@ -56,6 +56,11 @@ body{
 }
 
 .text-width-2{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.text-width-3{
   width: 650px;
   margin: 0 auto;
 }
@@ -68,4 +73,15 @@ body{
 .action-button:hover {
   background: #7bcdfd;
   color: white;
+}
+
+.bucket-box{
+  position:relative;
+}
+
+.v-images{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

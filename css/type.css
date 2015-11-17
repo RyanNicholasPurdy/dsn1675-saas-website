@@ -62,7 +62,8 @@ th, td {
 }
 
 thead th {
-  vertical-align: bottom;
+
+  : bottom;
 }
 
 .text-left {

@@ -25,12 +25,10 @@ body{
 .hero-image{
     background-image: url("http://placehold.it/350x150");
     background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
-.hero-padding{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
 
 .text-width-1{
   width: 180px;

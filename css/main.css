@@ -21,6 +21,19 @@ body{
     padding-bottom: 6rem;
 }
 
+.hero-image-2{
+    background-image: url('../images/hero-image-2.png');
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.hero-image-3{
+    background-image: url('../images/hero-image-3.png');
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
 
 .text-width-1{
   width: 180px;

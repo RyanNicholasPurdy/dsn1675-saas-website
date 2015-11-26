@@ -2,12 +2,20 @@
   box-sizing: inherit;
 }
 
+html{
+  font-family: 'Raleway', sans-serif;
+}
+
 body{
   margin: 0;
 }
 
+.nav-font{
+  font-family: 'Varela Round', sans-serif;
+}
+
 .hero-image{
-    background-image: url("http://placehold.it/350x150");
+    background-image: url('../images/hero-image.png');
     background-size: cover;
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -25,12 +33,12 @@ body{
 }
 
 .action-button{
-  background: #505153;
+  background: #34182a;
   padding: 10px 20px 10px 20px;
 }
 
 .action-button:hover {
-  background: #7bcdfd;
+  background: #843d6b;
   color: white;
 }
 

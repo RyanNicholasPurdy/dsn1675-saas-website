@@ -4,27 +4,27 @@
 
 a:link {
   text-decoration: none;
-  color: #a0a0a0;
+  color: white;
 }
 
 h1{
-  color: #505153;
+  color: white;
 }
 
 h1 a:visited{
-  color: #505153
+  color: white;
 }
 
 h1 a:hover{
-  color: #505153
+  color: #843d6b;
 }
 
 a:visited{
-  color: #a0a0a0;
+  color: white;
 }
 
 a:hover{
-  color: black;
+  color: #843d6b;
   text-decoration: none;
 }
 
@@ -50,4 +50,16 @@ a:hover{
 
 .footer-text{
   color: #e6e6e6;
+}
+
+.text-colour-white{
+  color: white;
+}
+
+.background-purple{
+  background-color: #34182a;
+}
+
+.background-green{
+  background-color: #5ad0b7;
 }

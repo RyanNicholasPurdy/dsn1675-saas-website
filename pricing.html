@@ -17,12 +17,17 @@
 
 <body>
 
-  <header class="masthead grid grid-middle micro background-purple nav-font">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+  </ul>
+
+  <header role="banner" class="masthead grid grid-middle micro background-purple nav-font">
     <div class="unit xs-1 s-1 m-1-3 l-2-4 text-center island-1-2">
       <h1 class="push-0 mega"><a href="index.html">StudioRoom</a></h1>
     </div>
     <div class="unit xs-1 s-1 m-2-3 l-2-4 island-1-2 micro text-center">
-      <nav>
+      <nav role="navigation" id="nav">
         <ul class="list-group list-group--inline push-0">
           <li class="push-r"><a href="index.html">Home</a></li>
           <li class="push-r"><a href="tour.html">Tour</a></li>
@@ -33,13 +38,13 @@
     </div>
   </header>
 
-  <main class="grid">
+  <main role="main" class="grid" id="main">
     <div class="unit xs-1 s-1 m-1 l-1">
       <div class="push-0 hero-image-3 pad-top-double pad-bottom-double">
         <div class="text-width-2 text-center">
           <h2 class="text-center hero-text">PRICING</h2>
           <p class="text-center kilo">Learn about our affordable pricing plans designed to work for any individual</p>
-          <a class="action-button" href="signup.html">Sign Up</a>
+          <a class="action-button" href="tour.html" aria-label="Take the tour to find out more about StudioRoom">Take Tour</a>
         </div>
       </div>
     </div>
@@ -47,15 +52,15 @@
     <div class="unit xs-1 s-1 m-1 l-1 bucket-colour-1 text-center bucket-box">
       <div class="vertical-alignment text-width-2 text-center">
         <h3 class="push-0 giga title-colour pad-b">TIGHT BUDGET? WE'VE GOT YOU!</h3>
-        <p class="body-copy-colour micro">We have different packages to accomodate different people in different situations</p>
+        <p class="micro">We have different packages to accomodate different people in different situations</p>
       </div>
     </div>
 
     <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center bucket-box media">
-      <img class="media__img push-0 vertical-alignment" src="images/free-icon.png" alt="image">
+      <img class="media__img push-0 vertical-alignment" src="images/free-icon.png" alt="free membership icon">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 bucket-colour-2 center island-double bucket-box background-purple">
-      <div class="body-copy-colour micro text-width-2 bucket-padding vertical-alignment">
+      <div class="text-colour-white micro text-width-2 bucket-padding vertical-alignment">
         <h3>FREE</h3>
         <ul>
           <li>Limited to 5 project uploads</li>
@@ -65,10 +70,10 @@
     </div>
 
     <div class="unit xs-1 s-1 m-1-2 l-1-2 unit-push-m-1-2 unit-push-l-1-2 text-center bucket-box media">
-      <img class="media__img push-0 vertical-alignment" src="images/pro-icon.png" alt="image">
+      <img class="media__img push-0 vertical-alignment" src="images/pro-icon.png" alt="pro membership icon">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 unit-pull-m-1-2 unit-pull-l-1-2 bucket-colour-2 center island-double bucket-box background-purple">
-      <div class="body-copy-colour micro text-width-2 bucket-padding vertical-alignment">
+      <div class="text-colour-white micro text-width-2 bucket-padding vertical-alignment">
         <h3>PRO - $9.99 per/month</h3>
         <ul>
           <li>Limited to 10 project uploads</li>
@@ -78,10 +83,10 @@
     </div>
 
     <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center bucket-box media">
-      <img class="media__img push-0 vertical-alignment" src="images/plus-icon.png" alt="image">
+      <img class="media__img push-0 vertical-alignment" src="images/plus-icon.png" alt="Plus membership icon">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 bucket-colour-2 center island-double bucket-box background-purple">
-      <div class="body-copy-colour micro text-width-2 bucket-padding vertical-alignment">
+      <div class="text-colour-white micro text-width-2 bucket-padding vertical-alignment">
         <h3>PLUS - $19.99 per/month</h3>
         <ul>
           <li>Unlimited project uploads</li>
@@ -93,9 +98,9 @@
     <div class="unit xs-1 s-1 m-1 l-1 bucket-colour-1 text-center bucket-box">
       <div class="vertical-alignment text-width-2">
         <h3 class="push-0 giga title-colour pad-b">SIGN UP NOW!</h3>
-        <p class="body-copy-colour micro">Ready to start your first project in StudioRoom? Click the button below to choose your package and sign up!</p>
+        <p class="micro">Ready to start your first project in StudioRoom? Click the button below to choose your package and sign up!</p>
         <div class="pad-t">
-          <a class="action-button" href="signup.html">Sign up</a>
+          <a class="action-button" href="signup.html" aria-label="Signup for StudioRoom">Sign up</a>
         </div>
       </div>
     </div>
@@ -103,16 +108,18 @@
     <div class="unit xs-1 s-1 m-1-3 l-1-3 text-center pad-t bucket-colour-2 footer-text">
       <h6 class="micro">Socials</h6>
       <ul class="micro list-group">
-        <li><a href="#">facebook</a></li>
-        <li><a href="#">instagram</a></li>
-        <li><a href="#">twitter</a></li>
+        <li><a href="https://www.facebook.com/ryannickpurdy">facebook</a></li>
+        <li><a href="https://www.instagram.com/ryannickpurdy/">instagram</a></li>
+        <li><a href="https://twitter.com/RyanNickPurdy">twitter</a></li>
       </ul>
     </div>
     <div class="unit xs-1 s-1 m-1-3 l-1-3 text-center pad-t bucket-colour-2 footer-text">
       <h6 class="micro">Contact</h6>
-      <ul class="micro list-group">
-        <li><a href="#">hello@studioroom.ca</a></li>
-        <li><a href="#">645-876-0846</a></li>
+      <ul class="micro list-group" role="contentinfo">
+        <li><a href="mailto:hello@studioroom.com">hello@studioroom.com</a></li>
+        <li><a href="tel:415-465-5985">415-465-5985</a></li>
+        <li>© Copyrihgt SAAS</li>
+        <li><a href="#nav">Back to top</a></li>
       </ul>
     </div>
     <div class="unit xs-1 s-1 m-1-3 l-1-3 text-center pad-t bucket-colour-2 footer-text">

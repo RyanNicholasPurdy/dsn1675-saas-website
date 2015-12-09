@@ -40,53 +40,53 @@
 
   <main role="main" class="grid" id="main">
 
-    <div class="unit xs-1 s-1 m-1-3 l-1-3 text-center pad-t-2 pad-b-2">
+    <div class="unit xs-1 s-1 m-1 l-1 text-center pad-t-2">
+      <h1 class="title-colour yotta">Sign Up For StudioRoom</h1>
       <form action="https://formspree.io/ryan.nicholas.purdy@gmail.com" method="post">
         <div>
-          <label for="name">Name</label>
-          <input id="name" name="name" required placeholder="first & last name">
+          <h3 class="kilo"><label for="first-name">First Name</label></h3>
+          <input id="first-name" name="first-name" required placeholder="enter your first name">
         </div>
-        <div>
-          <label for="email">Email</label>
+        <div class="pad-t">
+          <h3 class="kilo"><label for="last-name">Last Name</label></h3>
+          <input id="last-name" name="last-name" required placeholder="enter your last name">
+        </div>
+        <div class="pad-t">
+          <h3 class="kilo"><label for="email">Email</label></h3>
           <input id="email" type="email" name="email" required placeholder="youremail@email.com">
         </div>
-        <div>
-          <label for="password">Password</label>
-          <input id="password" name="password" required placeholder="password">
+        <div class="pad-t pad-b-2">
+          <h3 class="kilo"><label for="password">Password</label></h3>
+          <input id="password" name="password" required placeholder="choose a password">
         </div>
-        <div>
-          <label for="subject">Subject</label>
-          <select id="subject" name="_subject">
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-          </select>
+        <div class="bucket-colour-1">
+          <div class="pad-t-2">
+            <h3 class="kilo"><label for="subject">Select your StudioRoom package</label></h3>
+            <select id="subject" name="_subject">
+              <option>Free Trial Plan</option>
+              <option>Pro Plan</option>
+              <option>Plus Plan</option>
+            </select>
+          </div>
+          <div class="pad-t">
+            <fieldset>
+              <legend>Select Your Gender</legend>
+              <input id="man" name="happy" type="radio" name="feels">
+              <label for="man">Male</label>
+
+              <input id="female" type="radio" name="feels">
+              <label for="female">Female</label>
+            </fieldset>
+          </div>
+          <div class="">
+            <label for="message">Questions? Ask Away!</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div class="pad-t pad-b-2">
+            <button class="background-white" type="submit"><strong>SUBMIT</strong></button>
+            <input type="hidden" name="_next" value="http://ryannicholaspurdy.github.io/dsn1675-saas-website/index.html">
+          </div>
         </div>
-        <div>
-          <fieldset>
-            <legend>How are you feeling</legend>
-            <input id="happy" name="happy" type="radio" name="feels">
-            <label for="happy">happy</label>
-
-            <input id="happy" type="radio" name="feels">
-            <label for="happy">happy</label>
-
-            <input id="happy" type="radio" name="feels">
-            <label for="happy">happy</label>
-
-            <input id="happy" type="radio" name="feels">
-            <label for="happy">happy</label>
-
-            <input id="happy" type="radio" name="feels">
-            <label for="happy">happy</label>
-          </fieldset>
-        </div>
-        <div>
-          <label for="message">message</label>
-          <textarea id="message" name="message"></textarea>
-        </div>
-        <button type="submit">Send!</button>
-        <input type="hidden" name="_next" value="http://ryannicholaspurdy.github.io/dsn1675-saas-website/index.html">
       </form>
     </div>
 
